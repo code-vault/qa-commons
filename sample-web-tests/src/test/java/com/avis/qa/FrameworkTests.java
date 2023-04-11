@@ -19,8 +19,8 @@ import static org.testng.Assert.*;
 public class FrameworkTests extends TestBase {
 
 
-    @Test(groups = {SANITY, REGRESSION, SMOKE})
-    public void verifyHomepageLogo() {
+    @Test(groups = {REGRESSION, SANITY, SMOKE}, dataProvider = TEST_DATA, dataProviderClass = CSVUtils.class)
+    public void verifyHomepageLogo(String hello) {
         launchUrl();
         System.out.println("Hello");
     }

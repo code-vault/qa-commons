@@ -1,10 +1,3 @@
 ####################################_MISC_##################################
 verifyVanityURLPageTitle,/aarporg,AARP
-verifyVanityURLPageTitle,/preferred,Avis Preferred Registration
-verifyVanityURLPageTitle,/expressenrollment,Join Avis Preferred
-verifyVanityURLPageTitle,/login,Login into your Avis Account
-#verifyVanityURLPageTitle,/localmarket,Avis.com Link Builder
-#verifyVanityURLPageTitle,/terms,Avis Preferred Terms
-#verifyVanityURLPageTitle,/usaa,USAA
-Reservation_CreditCard_ErrorMessage_PayNow,EWR,Tester,M,test,9838234567,345836415546724,123
-Reservation_Outbound_PayNow,YYZ,ishan,K,AbgEcom,8980765645,343710684134463,123
+verifyHomepageLogo,hello

@@ -20,15 +20,16 @@ public class FrameworkTests extends TestBase {
 
 
     @Test(groups = {REGRESSION, SANITY, SMOKE}, dataProvider = TEST_DATA, dataProviderClass = CSVUtils.class)
-    public void verifyHomepageLogo(String hello) {
+    public void verifyHomepageLogo() {
         launchUrl();
-        System.out.println("Hello");
+        Homepage homePage = new Homepage(getDriver());
+        assertTrue(homePage.isAvisLogoDisplayed(), "Avis logo is not displayed");
     }
 
     @Test(groups = {REGRESSION, SANITY, SMOKE}, dataProvider = TEST_DATA, dataProviderClass = CSVUtils.class)
     public void verifyVanityURLPageTitle(String url, String title) {
         launchUrl(getAvisUrl(url));
-        assertEquals("Bye", "Hello");
+        assertTrue(getDriver().getTitle().contains(title), "Page title is incorrect");
     }
 
 }

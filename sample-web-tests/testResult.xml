@@ -1,0 +1,8 @@
+<testsuite hostname="TestResult" ignored="2" name="Test" tests="1" failures="0" timestamp="0000-00-00T00:00:00 IST" time="00.000" errors="0">
+<testcase name="verifyHomepageLogo"  classname=" com.avis.qa.FrameworkTests"/>
+<testcase name="verifyVanityURLPageTitle"  classname=" com.avis.qa.FrameworkTests"/>
+<testcase name="verifyVanityURLPageTitle"  classname=" com.avis.qa.FrameworkTests"/>
+<testcase name="verifyVanityURLPageTitle"  classname=" com.avis.qa.FrameworkTests"/>
+<testcase name="verifyVanityURLPageTitle"  classname=" com.avis.qa.FrameworkTests"/>
+
+</testsuite>

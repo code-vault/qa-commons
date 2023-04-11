@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regression" parallel="methods" verbose="1" thread-count="1">
+    <listeners>
+        <listener class-name="com.avis.qa.listeners.retry.AnnotationTransformer"></listener>
+    </listeners>
+
+    <parameter name="brand" value="Avis"/>       <!-- <Values: Avis/Budget/Paylesscar -->
+    <parameter name="domain" value="US"/>        <!-- <Values: US/CA/AU/NZ> -->
+    <parameter name="environment" value="qa"/>   <!-- <Values : qa/uat1/qa2/www/load balancer ip> -->
+    <parameter name="browser" value="chrome"/>   <!-- <Values: chrome/firefox/safari/edge/pixel/iphone/ipad> -->
+    <parameter name="docker" value="true"/>
+
+    <test name="AVIS US Regression Tests on Chrome">
+
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="com.avis.qa.FrameworkTests"/>
+        </packages>
+    </test>
+
+
+</suite>

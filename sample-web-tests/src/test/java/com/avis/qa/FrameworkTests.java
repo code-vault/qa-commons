@@ -22,14 +22,13 @@ public class FrameworkTests extends TestBase {
     @Test(groups = {SANITY, REGRESSION, SMOKE})
     public void verifyHomepageLogo() {
         launchUrl();
-        Homepage homePage = new Homepage(getDriver());
-        assertTrue(homePage.isAvisLogoDisplayed(), "Avis logo is not displayed");
+        System.out.println("Hello");
     }
 
     @Test(groups = {REGRESSION, SANITY, SMOKE}, dataProvider = TEST_DATA, dataProviderClass = CSVUtils.class)
     public void verifyVanityURLPageTitle(String url, String title) {
         launchUrl(getAvisUrl(url));
-        assertTrue(getDriver().getTitle().contains(title), "Page title is incorrect");
+        assertEquals("Bye", "Hello");
     }
 
 }

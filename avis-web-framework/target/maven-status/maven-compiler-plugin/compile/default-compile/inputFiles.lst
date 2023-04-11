@@ -1,0 +1,16 @@
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/listeners/report/ExtentManager.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/core/DockerInstance.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/utilities/JacksonUtils.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/utilities/RunTimeConfigUtils.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/core/AbstractBasePage.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/core/TestBase.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/utilities/CommonUtils.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/listeners/retry/RetryAnalyzer.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/listeners/report/ExtentListener.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/utilities/ElementHelper.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/utilities/ExcelUtils.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/core/Configuration.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/utilities/DataConverter.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/utilities/CSVUtils.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/core/BrowserInstance.java
+/Users/devarshi/Documents/qa-commons/avis-web-framework/src/main/java/com/avis/qa/listeners/retry/AnnotationTransformer.java

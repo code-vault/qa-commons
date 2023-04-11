@@ -12,16 +12,9 @@
     <parameter name="docker" value="false"/>
 
     <test name="AVIS US Regression Tests on Chrome">
-
-        <groups>
-            <run>
-                <include name="regression"/>
-            </run>
-        </groups>
-
-        <packages>
-            <package name="com.avis.qa.FrameworkTests"/>
-        </packages>
+<classes>
+    <class name="com.avis.qa.FrameworkTests"></class>
+</classes>
     </test>
 
 
